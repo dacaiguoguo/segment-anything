@@ -9,7 +9,8 @@ sam_checkpoint = "sam_vit_h_4b8939.pth"
 model_type = "vit_h"
 # sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
 # predictor = SamPredictor(sam)
-image = cv2.imread('/Users/yanguosun/Developer/segment-anything/4a8cb432833d5b3c-2.jpg')
+# image = cv2.imread('/Users/yanguosun/Developer/segment-anything/4a8cb432833d5b3c-2.jpg')
+image = cv2.imread('b532271165de88b8.jpg')
 # predictor.set_image(image)
 # masks, _, _ = predictor.predict(<input_prompts>)
 
